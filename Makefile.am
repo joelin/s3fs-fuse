@@ -19,7 +19,7 @@
 ######################################################################
 SUBDIRS=src test doc
 
-EXTRA_DIST=doc default_commit_hash
+EXTRA_DIST=doc default_commit_hash autogen.sh README.md
 
 dist-hook:
 	rm -rf `find $(distdir)/doc -type d -name .svn`
